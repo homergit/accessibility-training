@@ -7,6 +7,19 @@
   });
 })();
 
+
+(function() {
+  var link = document.querySelector("a");
+  link.addEventListener("click", function() {
+    const toggleLink = link.classList.toggle;
+    toggleLink("is-active-link");
+
+    console.log('123123123')
+
+    setTimeout(function(){toggleLink("is-active-link");},2000);
+  });
+})();
+
 document.querySelectorAll("#nav li").forEach(function(navEl) {
   navEl.onclick = function() {
     toggleTab(this.id, this.dataset.target);
