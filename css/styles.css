@@ -315,23 +315,13 @@ span {
 
 
 .skip-navigation {
-
-}
-
-.skip-navigation-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-
-.skip-navigation-link {
-  padding: 10px;
-  color: white;
-}
-
-.skip-navigation-link:hover {
-  color: white;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
 }
 
 .breadcrumb {
