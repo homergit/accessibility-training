@@ -176,3 +176,169 @@ li {
   height: 40px;
   background-size: contain;
 }
+
+input:focus,select:focus,textarea:focus {
+  outline: 2px solid #5a61ff !important;
+}
+
+a:focus {
+  outline: 2px solid #5a61ff !important;
+  border: 2px solid blue;
+  box-shadow: 0 0 4px #5A61FF !important;
+}
+
+a:hover {
+  box-shadow: 0 0 4px #29ceff !important;
+}
+
+a.is-active-link {
+  outline: 2px solid #5a61ff !important;
+  border: 2px solid blue;
+  box-shadow: 0 0 4px #5A61FF !important;
+}
+
+a {
+  color: #113f5d;
+  text-decoration: underline;
+}
+
+.has-background-grey-light {
+  background-color: #e9e9e9 !important;
+}
+
+.is-outlined:focus {
+  outline: 2px solid #5a61ff !important;
+  border: 2px solid blue;
+  box-shadow: 0 0 4px #5A61FF !important;
+}
+
+
+.button.is-info,
+.hero.is-info,
+.button.is-link {
+  background-color: #113f5d;
+}
+
+span {
+  color: #113f5d;
+}
+
+.hero {
+  background-color: #fafafa;
+}
+
+.tag:not(body).is-danger {
+  background-color: #97253c;
+  color: #fff;
+}
+
+.tag:not(body).is-primary {
+  background-color: #0a3f37;
+  color: #fff;
+}
+
+.tag:not(body).is-success {
+  background-color: #115629;
+  color: #fff;
+}
+
+.button.is-white.is-outlined span {
+  color: #fff;
+}
+
+.help.is-success {
+  color: #115629;
+}
+
+.help.is-danger {
+  color: #97253c;
+}
+
+.media-right .has-text-grey-light {
+  color: #222121!important;
+}
+
+.control.is-expanded {
+  margin-top: -24px;
+}
+
+.button.is-white.is-outlined:focus, .button.is-white.is-outlined:hover {
+  background-color: #383737;
+  border-color: #fff;
+  color: #0a0a0a;
+}
+
+.hero.is-info .tabs.is-boxed a, .hero.is-info .tabs.is-toggle a {
+  color: #fff !important;
+}
+
+.tabs span {
+  color: white;
+}
+
+
+.tabs .is-active span {
+  color: #113f5d;
+}
+
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+.soc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.soc a {
+  padding: 10px;
+}
+
+.footer .columns a {
+
+}
+
+.navbar-item.logo-link {
+  border: none;
+}
+
+.navbar-item.logo-link:hover {
+  border: none !important;
+}
+
+
+.skip-navigation {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+.breadcrumb {
+  background-color: rgba(10, 10, 10, 0.37);
+  padding: 10px 200px;
+}
+
+.breadcrumb .breadcrumb-link {
+  padding: 10px;
+  color: white;
+}
+
+.breadcrumb .breadcrumb-link:hover {
+  color: white;
+  border: none;
+}
+
+.breadcrumb .breadcrumb-link:focus {
+  border: none;
+}
