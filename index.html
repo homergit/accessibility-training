@@ -1194,7 +1194,12 @@
     </div>
   </footer>
 
-  <div id="modal-card" class="modal modal-fx-3dSlit">
+  <div id="modal-card"
+       class="modal modal-fx-3dSlit"
+       role="dialog"
+       aria-labelledby="dialog_label"
+       aria-describedby="dialog_desc"
+       aria-modal="true">
     <div class="modal-background"></div>
     <div class="modal-content is-tiny">
       <div class="card">
@@ -1211,11 +1216,11 @@
               </div>
             </div>
             <div class="media-content">
-              <div class="title is-4">Jane Doe</div>
+              <div class="title is-4" id="dialog_label">Jane Doe</div>
               <div class="subtitle is-6">@jane_doe</div>
             </div>
           </div>
-          <div class="content">
+          <div class="content" id="dialog_desc">
             Laum Ipsum junkah potatoes bookin' it. Moosetown rig up I'm tellin' you way up north bookin' it can't get theyah from heeyah native bean suppah whawf Powrtland Museum of Aht, back woods hawsun around the pit mummah Yessah, mummah muckle riyht on'ta her
             Bean's dinnahbucket bub geez bud sumpin' fierce ayuhpawt Bangah naw, Powrtland Museum of Aht down cellah sumpin' fierce hoppa bub If you can't stand the wintah you don't deserve the summah slower than molasses going uphill in January.
             Sgn'wahl shoggor hrii uaaah R'lyeh uh'e k'yarnak Hastur hupadgh li'hee, hai f'nilgh'ri nilgh'ri n'ghftor ngftaghu vulgtlagln h'hrii throd Nyarlathotep lloig, naflsll'ha nnnsll'ha athg y-ebunma goka chtenff ehyeog cehye. Zhro y'hah
@@ -1232,7 +1237,10 @@
     <button type="button" tabindex="0" class="modal-close is-large">close</button>
   </div>
 
-  <div id="modal-image1" class="modal modal-fx-3dSlit">
+  <div id="modal-image1"
+       class="modal modal-fx-3dSlit"
+       role="dialog"
+       aria-modal="true">
     <div class="modal-background"></div>
     <div class="modal-content is-huge is-image">
       <img alt="alt text" src="https://source.unsplash.com/random/?sig=1">
@@ -1240,7 +1248,10 @@
     <button type="button" tabindex="0" class="modal-close is-large">close</button>
   </div>
 
-  <div id="modal-image2" class="modal modal-fx-superScaled">
+  <div id="modal-image2"
+       class="modal modal-fx-superScaled"
+       role="dialog"
+       aria-modal="true">
     <div class="modal-background"></div>
     <div class="modal-content  is-image">
       <img alt="alt text" src="https://source.unsplash.com/random/?sig=3">
