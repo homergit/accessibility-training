@@ -789,7 +789,5 @@ MenuItem.prototype.handleMouseout = function (event) {
     setTimeout(this.menu.close.bind(this.menu, false), 300);
 };
 
-
-
 var menubar = new Menubar(document.getElementById('menubar1'));
 menubar.init();

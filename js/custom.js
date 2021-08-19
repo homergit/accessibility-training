@@ -7,38 +7,6 @@
   });
 })();
 
-// document.querySelectorAll("#nav li").forEach(function(navEl) {
-//   navEl.onclick = function() {
-//     toggleTab(this.id, this.dataset.target);
-//   };
-// });
-//
-// function toggleTab(selectedNav, targetId) {
-//   var navEls = document.querySelectorAll("#nav li");
-//
-//   navEls.forEach(function(navEl) {
-//     if (navEl.id == selectedNav) {
-//       navEl.classList.add("is-active");
-//     } else {
-//       if (navEl.classList.contains("is-active")) {
-//         navEl.classList.remove("is-active");
-//       }
-//     }
-//   });
-//
-//   var tabs = document.querySelectorAll(".tab-pane");
-//
-//   tabs.forEach(function(tab) {
-//     if (tab.id == targetId) {
-//       tab.style.display = "block";
-//       tab.setAttribute("aria-active", "true");
-//     } else {
-//       tab.style.display = "none";
-//       tab.setAttribute("aria-active", "false");
-//     }
-//   });
-// }
-
 
 (function() {
   const emailValidation = document.querySelector("#emailValidation");
@@ -77,23 +45,6 @@ function isEmailValid(email) {
   const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(email);
 }
-
-(function() {
-    const dropdown = document.querySelector("#dropdown");
-    const subnavigation = document.querySelector("#subnavigation");
-
-    let isDropdownOpened = false;
-
-    dropdown.addEventListener("click", () => {
-        isDropdownOpened = !isDropdownOpened;
-
-        if (isDropdownOpened) {
-            subnavigation.classList.remove("subnavigation_hidden");
-        } else {
-            subnavigation.classList.add("subnavigation_hidden");
-        }
-    });
-})();
 
 (function () {
     var tablist = document.querySelectorAll('[role="tablist"]')[0];
@@ -274,7 +225,6 @@ function isEmailValid(email) {
                 delay = delayValue;
             }
             else {
-                // If no value is specified, default to 300ms
                 delay = 300;
             };
         };
